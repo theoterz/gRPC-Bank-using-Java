@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+option java_package = "com.bank";
+
+service transactions
+{
+    rpc login(LoginRequest) returns (LoginReply);
+    rpc withdrawal(Data) returns (Reply);
+    rpc deposit(Data) returns (Reply);
+    rpc showBalance(Empty) returns (Reply);
+}
+
+message LoginRequest
+{
+    string username = 1;
+    string password = 2;
+}
+
+message LoginReply
+{
+    string responce = 1;
+    int32 id = 2;
+}
+
+message Data
+{
+    double ammount = 1;
+    int32 id = 2;
+}
+
+message Empty
+{
+    int32 id = 1;
+}
+
+message Reply
+{
+    string responce = 1;
+}

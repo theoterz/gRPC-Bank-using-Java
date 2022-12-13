@@ -1,0 +1,10 @@
+com\bank\transactionsGrpc$transactionsMethodDescriptorSupplier.class
+com\bank\transactionsGrpc$transactionsFutureStub.class
+com\bank\transactionsGrpc$transactionsBlockingStub.class
+com\bank\transactionsGrpc$transactionsImplBase.class
+com\bank\transactionsGrpc$transactionsFileDescriptorSupplier.class
+com\bank\transactionsGrpc.class
+com\bank\transactionsGrpc$MethodHandlers.class
+com\bank\transactionsGrpc$transactionsBaseDescriptorSupplier.class
+com\bank\transactionsGrpc$transactionsStub.class
+com\bank\transactionsGrpc$1.class
